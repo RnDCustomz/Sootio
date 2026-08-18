@@ -6,7 +6,7 @@ services:
     image: sootio
     container_name: sootio
     ports:
-      - "55774:55774"
+      - "55771:55771"
     volumes:
       - sootio-data:/app/data  # Persist SQLite cache data
     networks:
